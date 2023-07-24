@@ -1,0 +1,364 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+body h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 61px;
+  text-align: left;
+  color: black;
+  margin-bottom: 40px;
+}
+body header {
+  background-color: black;
+}
+body header .menu nav {
+  background-color: black !important;
+  padding-top: 15px;
+  padding-bottom: 13px;
+}
+body header .menu nav ul {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  align-items: center;
+}
+body header .menu nav ul a {
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+body header .menu nav ul a.active {
+  color: white !important;
+}
+body header .menu nav ul button.hora {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+}
+body header .menu nav ul button.hora a {
+  color: #E40E20;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 8px 15px;
+}
+body header .menu nav ul img {
+  height: 28px;
+}
+body .banner .carousel button.active {
+  background-color: #E40E20;
+}
+body .banner .container {
+  position: absolute;
+  top: 270px;
+  left: 200px;
+  width: 35%;
+}
+body .banner .container h1 {
+  font-weight: 900;
+  font-size: 50px;
+  color: white;
+  text-align: left;
+  line-height: 60px;
+  margin-bottom: 15px;
+}
+body .banner .container p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
+}
+body .banner .container button {
+  border: none;
+  background-color: #E40E20;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+body .servicios {
+  padding: 80px 0;
+}
+body .servicios .card {
+  border: none;
+  box-shadow: 6px 10px 20px -6px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 6px 10px 20px -6px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 6px 10px 20px -6px rgba(0, 0, 0, 0.74);
+  height: 43rem;
+}
+body .servicios .card h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+body .servicios .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 0 25px;
+  text-align: left;
+}
+body .servicios .card a {
+  background-color: #E40E20;
+  border: none;
+  font-size: 16px;
+  font-weight: 700px;
+  padding: 8px 25px;
+}
+body .tienda {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(126deg, rgb(0, 0, 0) 22%, rgb(228, 14, 32) 93%);
+  padding: 80px 0;
+}
+body .tienda .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+body .tienda .container h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+body .tienda .container p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+body .tienda .container button {
+  border: none;
+  background-color: #E40E20;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+body .aprende {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+body .aprende .aprende-nosotros {
+  display: flex;
+  flex-direction: row;
+}
+body .aprende .aprende-nosotros .carousel {
+  width: 50%;
+}
+body .aprende .aprende-nosotros .carousel .videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body .aprende .aprende-nosotros .carousel .videos .card {
+  width: 40%;
+  border: none;
+}
+body .aprende .aprende-nosotros .carousel .videos .card .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+body .aprende .aprende-nosotros .carousel .videos .card .card-body h5 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .aprende .aprende-nosotros .carousel .videos .card .card-body p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+body .aprende .aprende-nosotros .carousel .videos .card .card-body a {
+  background-color: black;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 25px;
+}
+body .aprende .aprende-nosotros .texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+}
+body .aprende .aprende-nosotros .texto h2 {
+  color: black;
+  margin-bottom: 10px;
+}
+body .aprende .aprende-nosotros .texto p {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+body .aprende .aprende-nosotros .texto button {
+  border: none;
+  background-color: #E40E20;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+}
+body .opiniones {
+  background-color: #E40E20 !important;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+body .opiniones .container h2 {
+  color: white;
+  text-align: center;
+}
+body .opiniones .container .tarjetas .carousel .carousel-item {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body .opiniones .container .tarjetas .carousel .carousel-item .card {
+  border: none;
+  border-radius: 25px;
+  background-color: black;
+}
+body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body {
+  padding: 30px;
+}
+body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+}
+body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body h5 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+body .marcas {
+  background-color: black;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+body .marcas h2 {
+  color: white;
+  text-align: center;
+  margin-bottom: 60px;
+}
+body .marcas .logos-marcas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body .agendar-hora {
+  background-image: url(../img/index/calltoaction-imagen.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+body .agendar-hora .container .texto-agendar {
+  text-align: center;
+}
+body .agendar-hora .container .texto-agendar h2 {
+  font-size: 55px;
+  color: white;
+  text-align: center;
+}
+body .agendar-hora .container .texto-agendar button {
+  background-color: white;
+  border: none;
+  padding: 20px 50px;
+  border-radius: 15px;
+}
+body .agendar-hora .container .texto-agendar button a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: left;
+  color: #E40E20;
+  text-align: center;
+}
+body footer {
+  background-color: black;
+}
+body footer .container {
+  padding-bottom: 20px;
+  padding-top: 70px;
+  text-align: center;
+}
+body footer .container .menu-footer {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body footer .container .menu-footer .menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  text-align: left;
+}
+body footer .container .menu-footer .menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+body footer .container .menu-footer .datos-empresa {
+  text-align: left;
+}
+body footer .container .menu-footer .datos-empresa p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: white;
+}
+body footer .container .menu-footer .rrss p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+}
+body footer .container .menu-footer .rrss .icono {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+body footer .container span {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}/*# sourceMappingURL=stile.css.map */
