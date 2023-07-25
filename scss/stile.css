@@ -1,19 +1,24 @@
 body {
   font-family: "Inter", sans-serif;
 }
+body h1 {
+  font-size: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+}
 body h2 {
   font-size: 40px;
   font-weight: 700;
   line-height: 61px;
   text-align: left;
-  color: black;
+  color: #000000;
   margin-bottom: 40px;
 }
 body header {
-  background-color: black;
+  background-color: #000000;
 }
 body header .menu nav {
-  background-color: black !important;
+  background-color: #000000 !important;
   padding-top: 15px;
   padding-bottom: 13px;
 }
@@ -23,15 +28,15 @@ body header .menu nav ul {
   align-items: center;
 }
 body header .menu nav ul a {
-  color: white;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 20px;
 }
 body header .menu nav ul a.active {
-  color: white !important;
+  color: #FFFFFF !important;
 }
 body header .menu nav ul button.hora {
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   border-radius: 5px;
 }
@@ -60,7 +65,7 @@ body .banner .container {
 body .banner .container h1 {
   font-weight: 900;
   font-size: 50px;
-  color: white;
+  color: #FFFFFF;
   text-align: left;
   line-height: 60px;
   margin-bottom: 15px;
@@ -70,7 +75,7 @@ body .banner .container p {
   font-weight: 400;
   line-height: 28px;
   text-align: left;
-  color: white;
+  color: #FFFFFF;
   margin-bottom: 30px;
 }
 body .banner .container button {
@@ -78,7 +83,7 @@ body .banner .container button {
   background-color: #E40E20;
   border-radius: 5px;
   padding: 10px 20px;
-  color: white;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
 }
@@ -109,10 +114,10 @@ body .servicios .card p {
   text-align: left;
 }
 body .servicios .card a {
-  background-color: #E40E20;
+  background-color: rojo;
   border: none;
   font-size: 16px;
-  font-weight: 700px;
+  font-weight: 700;
   padding: 8px 25px;
 }
 body .tienda {
@@ -129,11 +134,11 @@ body .tienda .container {
        column-gap: 100px;
 }
 body .tienda .container h2 {
-  color: white;
+  color: #FFFFFF;
   margin-bottom: 10px;
 }
 body .tienda .container p {
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -145,7 +150,7 @@ body .tienda .container button {
   background-color: #E40E20;
   border-radius: 5px;
   padding: 10px 20px;
-  color: white;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
 }
@@ -188,7 +193,7 @@ body .aprende .aprende-nosotros .carousel .videos .card .card-body p {
   text-align: left;
 }
 body .aprende .aprende-nosotros .carousel .videos .card .card-body a {
-  background-color: black;
+  background-color: #000000;
   border: none;
   font-size: 14px;
   font-weight: 700;
@@ -202,11 +207,11 @@ body .aprende .aprende-nosotros .texto {
   width: 50%;
 }
 body .aprende .aprende-nosotros .texto h2 {
-  color: black;
+  color: #000000;
   margin-bottom: 10px;
 }
 body .aprende .aprende-nosotros .texto p {
-  color: black;
+  color: #000000;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -218,7 +223,7 @@ body .aprende .aprende-nosotros .texto button {
   background-color: #E40E20;
   border-radius: 5px;
   padding: 10px 20px;
-  color: white;
+  color: #FFFFFF;
   font-weight: 700;
   font-size: 20px;
 }
@@ -228,7 +233,7 @@ body .opiniones {
   padding-bottom: 150px;
 }
 body .opiniones .container h2 {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 body .opiniones .container .tarjetas .carousel .carousel-item {
@@ -240,32 +245,32 @@ body .opiniones .container .tarjetas .carousel .carousel-item {
 body .opiniones .container .tarjetas .carousel .carousel-item .card {
   border: none;
   border-radius: 25px;
-  background-color: black;
+  background-color: #000000;
 }
 body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body {
   padding: 30px;
 }
 body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body p {
-  color: white;
+  color: #FFFFFF;
   font-size: 20px;
   font-weight: 400;
   line-height: 36px;
   text-align: left;
 }
 body .opiniones .container .tarjetas .carousel .carousel-item .card .card-body h5 {
-  color: white;
+  color: #FFFFFF;
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
   text-align: left;
 }
 body .marcas {
-  background-color: black;
+  background-color: #000000;
   padding-top: 80px;
   padding-bottom: 150px;
 }
 body .marcas h2 {
-  color: white;
+  color: #FFFFFF;
   text-align: center;
   margin-bottom: 60px;
 }
@@ -287,11 +292,11 @@ body .agendar-hora .container .texto-agendar {
 }
 body .agendar-hora .container .texto-agendar h2 {
   font-size: 55px;
-  color: white;
+  color: #FFFFFF;
   text-align: center;
 }
 body .agendar-hora .container .texto-agendar button {
-  background-color: white;
+  background-color: #FFFFFF;
   border: none;
   padding: 20px 50px;
   border-radius: 15px;
@@ -306,7 +311,7 @@ body .agendar-hora .container .texto-agendar button a {
   text-align: center;
 }
 body footer {
-  background-color: black;
+  background-color: #000000;
 }
 body footer .container {
   padding-bottom: 20px;
@@ -327,7 +332,7 @@ body footer .container .menu-footer .menu {
 }
 body footer .container .menu-footer .menu a {
   text-decoration: none;
-  color: white;
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -340,10 +345,10 @@ body footer .container .menu-footer .datos-empresa p {
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0em;
-  color: white;
+  color: #FFFFFF;
 }
 body footer .container .menu-footer .rrss p {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
   font-weight: 500;
   line-height: 30px;
@@ -357,8 +362,45 @@ body footer .container .menu-footer .rrss .icono {
        column-gap: 15px;
 }
 body footer .container span {
-  color: white;
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
+}
+
+.banner-servicios {
+  background-image: url(../img/mecanica-general/imagen-banner.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+}
+.banner-servicios .container p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.servicios .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+.servicios .container .textos {
+  padding: 45px 80px;
+}
+.servicios .container .textos p {
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.servicios .container .textos p.negrita {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
 }/*# sourceMappingURL=stile.css.map */

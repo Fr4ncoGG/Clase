@@ -1,24 +1,32 @@
+@import "variables";
 
 
 body {
     font-family: 'Inter', sans-serif;
     
+    h1 {
+        font-size: $fontSizeH1;
+        color: $blanco;
+        font-weight: $fontWeightBold;
+
+    }
+
     h2 {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: $fontSizeH2;
+        font-weight: $fontWeightBold;
         line-height: 61px;
         text-align: left;
-        color: black;
+        color: $negro;
         margin-bottom: 40px;
     }
 
     header {
-        background-color: black;
+        background-color: $negro;
     
         .menu {
             
             nav {
-                background-color: black !important;
+                background-color: $negro !important;
                 padding-top: 15px;
                 padding-bottom: 13px;
                 
@@ -27,22 +35,22 @@ body {
                     align-items: center;
                 
                     a {
-                        color: white;
-                        font-weight: 400;
+                        color: $blanco;
+                        font-weight: $fontWeightRegular;
                         font-size: 20px;
                     }
                     a.active {
-                        color: white !important;
+                        color: $blanco !important;
                     }
                     button.hora{
-                        background-color: white;
+                        background-color: $blanco;
                         border: none;
                         border-radius: 5px;
                         a{
-                            color: #E40E20;
+                            color: $rojo;
                             text-decoration: none;
                             font-size: 14px;
-                            font-weight: 700;
+                            font-weight: $fontWeightBold;
                             line-height: 19px;
                             letter-spacing: 0px;
                             text-align: center;
@@ -66,7 +74,7 @@ body {
     .banner {
         .carousel {
             button.active {
-                background-color: #E40E20;
+                background-color: $rojo;
             }
         }
         .container {
@@ -76,9 +84,9 @@ body {
             width: 35%;
     
             h1 {
-                font-weight: 900;
+                font-weight: $fontWeightExtraBold;
                 font-size: 50px;
-                color: white;
+                color: $blanco;
                 text-align: left;
                 line-height: 60px;
                 margin-bottom: 15px;
@@ -86,20 +94,20 @@ body {
     
             p {
                font-size: 20px;
-               font-weight: 400;
+               font-weight: $fontWeightRegular;
                line-height: 28px;
                text-align: left;
-               color: white;
+               color: $blanco;
                margin-bottom: 30px;
             }
     
             button {
                 border: none;
-                background-color: #E40E20;
+                background-color: $rojo;
                 border-radius: 5px;
                 padding: 10px 20px;
-                color: white;
-                font-weight: 700;
+                color: $blanco;
+                font-weight: $fontWeightBold;
                 font-size: 20px;
             }
         }
@@ -117,7 +125,7 @@ body {
 
             h5 {
                 font-size: 20px;
-                font-weight: 700;
+                font-weight: $fontWeightBold;
                 line-height: 29px;
                 text-align: center;
                 padding-top: 15px;
@@ -126,7 +134,7 @@ body {
 
             p {
                 font-size: 16px;
-                font-weight: 400;
+                font-weight: $fontWeightRegular;
                 line-height: 24px;
                 letter-spacing: 0em;
                 padding: 0 25px;
@@ -134,10 +142,10 @@ body {
             }
 
             a {
-              background-color: #E40E20;
+              background-color: rojo;
               border: none;
               font-size: 16px;
-              font-weight: 700px;
+              font-weight: $fontWeightBold;
               padding: 8px 25px;
             }
         }
@@ -156,13 +164,13 @@ body {
             column-gap: 100px;
 
             h2 {
-                color: white;
+                color: $blanco;
                 margin-bottom: 10px;
             }
             p {
-                color: white;
+                color: $blanco;
                 font-size: 20px;
-                font-weight: 400;
+                font-weight: $fontWeightRegular;
                 line-height: 30px;
                 text-align: left;
                 margin-bottom: 25px;
@@ -170,11 +178,11 @@ body {
 
             button {
                 border: none;
-                background-color: #E40E20;
+                background-color: $rojo;
                 border-radius: 5px;
                 padding: 10px 20px;
-                color: white;
-                font-weight: 700;
+                color: $blanco;
+                font-weight: $fontWeightBold;
                 font-size: 20px;
             }
         }
@@ -205,7 +213,7 @@ body {
                             padding-right: 0;
                             h5 {
                                 font-size: 20px;
-                                font-weight: 700;
+                                font-weight: $fontWeightBold;
                                 line-height: 29px;
                                 letter-spacing: 0em;
                                 text-align: left;
@@ -213,17 +221,17 @@ body {
                             }
                             p {
                                 font-size: 18px;
-                                font-weight: 400;
+                                font-weight: $fontWeightRegular;
                                 line-height: 27px;
                                 letter-spacing: 0em;
                                 text-align: left;
 
                             }
                             a {
-                                background-color: black;
+                                background-color: $negro;
                                 border: none;
                                 font-size: 14px;
-                                font-weight: 700;
+                                font-weight: $fontWeightBold;
                                 padding: 5px 25px;
                             }
                         }
@@ -241,13 +249,13 @@ body {
                 width: 50%;
 
                 h2 {
-                    color:black;
+                    color: $negro;
                     margin-bottom: 10px;
                 }
                 p {
-                    color: black;
+                    color: $negro;
                     font-size: 20px;
-                    font-weight: 400;
+                    font-weight: $fontWeightRegular;
                     line-height: 30px;
                     text-align: left;
                     margin-bottom: 25px;
@@ -255,11 +263,11 @@ body {
     
                 button {
                     border: none;
-                    background-color: #E40E20;
+                    background-color: $rojo;
                     border-radius: 5px;
                     padding: 10px 20px;
-                    color: white;
-                    font-weight: 700;
+                    color: $blanco;
+                    font-weight: $fontWeightBold;
                     font-size: 20px;
                 }
             }
@@ -270,13 +278,13 @@ body {
     }
  
     .opiniones {
-        background-color: #E40E20 !important;
+        background-color: $rojo !important;
         padding-top: 80px;
         padding-bottom: 150px;
 
         .container {
             h2{
-                color: white;
+                color: $blanco;
                 text-align: center;
             }
             .tarjetas {
@@ -288,21 +296,21 @@ body {
                         .card {
                             border:none;
                             border-radius: 25px;
-                            background-color: black;
+                            background-color: $negro;
                             .card-body {
                                 padding: 30px;
                                 p {
-                                    color: white;
+                                    color: $blanco;
                                     font-size: 20px;
-                                    font-weight: 400;
+                                    font-weight: $fontWeightRegular;
                                     line-height: 36px;
                                     text-align: left;
     
                                 }
                                 h5 {
-                                    color: white;
+                                    color: $blanco;
                                     font-size: 24px;
-                                    font-weight: 700;
+                                    font-weight: $fontWeightBold;
                                     line-height: 29px;
                                     text-align: left;
 
@@ -319,11 +327,11 @@ body {
     }
     
     .marcas {
-        background-color: black;
+        background-color: $negro;
         padding-top: 80px;
         padding-bottom: 150px;
         h2 {
-            color: white;
+            color: $blanco;
             text-align: center;
             margin-bottom: 60px;
             
@@ -348,11 +356,11 @@ body {
                 text-align: center;
                 h2 {
                     font-size: 55px;
-                    color: white;
+                    color: $blanco;
                     text-align: center;
                 }
                 button {
-                    background-color: white;
+                    background-color: $blanco;
                     border: none;
                     padding: 20px 50px;
                     border-radius: 15px;
@@ -361,10 +369,10 @@ body {
                     a {
                         text-decoration: none;
                         font-size: 40px;
-                        font-weight: 700;
+                        font-weight: $fontWeightBold;
                         line-height: 58px;
                         text-align: left;
-                        color: #E40E20;
+                        color: $rojo;
                         text-align: center;
                         
 
@@ -378,7 +386,7 @@ body {
     }
 
     footer {
-        background-color: black;
+        background-color: $negro;
         .container {
             padding-bottom: 20px;
             padding-top: 70px;
@@ -395,9 +403,9 @@ body {
                     text-align: left;
                     a {
                         text-decoration: none;
-                        color: white;
+                        color: $blanco;
                         font-size: 16px;
-                        font-weight: 400;
+                        font-weight: $fontWeightRegular;
                         line-height: 24px;
                     }
                 }
@@ -406,18 +414,18 @@ body {
                     
                     p {
                         font-size: 18px;
-                        font-weight: 400;
+                        font-weight: $fontWeightRegular;
                         line-height: 30px;
                         letter-spacing: 0em;
-                        color: white;
+                        color: $blanco;
                     }
 
                 }
                 .rrss {
                     p {
-                        color: white;
+                        color: $blanco;
                         font-size: 18px;
-                        font-weight: 500;
+                        font-weight: $fontWeightMedium;
                         line-height: 30px;
                         text-align: center;
 
@@ -432,9 +440,9 @@ body {
                 }
             }
             span {
-                color: white;
+                color: $blanco;
                 font-size: 14px;
-                font-weight: 400;
+                font-weight: $fontWeightRegular;
                 text-align: center;
 
             }
@@ -442,8 +450,11 @@ body {
     }
         
     
+   
 
 }
+
+@import "mecanicageneral";
 
 
 
