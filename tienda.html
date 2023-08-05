@@ -35,9 +35,9 @@
                         </a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="./servicios-mecanicageneral.html">Mecánica General</a></li>
-                          <li><a class="dropdown-item" href="servicios-pinturaydesabolladura.html">Pintura y desabolladura</a></li>
+                          <li><a class="dropdown-item" href="./servicios-pinturaydesabolladura.html">Pintura y desabolladura</a></li>
                           <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="servicios-revisontecnica.html">Revisión Técnica y Scanner</a></li>
+                          <li><a class="dropdown-item" href="./servicios-revisiontecnica.html"">Revisión Técnica y Scanner</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -66,114 +66,255 @@
     </header>
 
     <section class="banner-tienda">
+      <div class="container">
         <h1>Tienda</h1>
+      </div>
+       
     </section>
 
-    <section class="categorias">
-        <a href="">Todos</a>
-        <a href="">Repuestos</a>
-        <a href="">Autos</a>
-    </section>
-
-    <section class="contenedores">
+    <section class="buscadores">
         
-        <select class="form-select" aria-label="Default select example">
-            <option selected>Selecciona</option>
+      <div class="container card">
+
+        <div class="selector">
+          <label class="form-label">Ordenar por</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Recomendados</option>
             <option value="1">De mayor a menor valor</option>
             <option value="2">De menor a mayor valor</option>
             <option value="3">mayor descuento</option>
-        </select>
+          </select>
+        </div>
+
+        <div class="selector">
+          <label class="form-label">Categorías</label>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Todos</option>
+            <option value="2">Autos</option>
+            <option value="3">Repuestos</option>
+          </select>
+        </div>
+
+        <div class="buscador">
+          <div class="box">
+            <div class="container-1">
+                <input type="search" id="search" placeholder="Buscar..." />
+                <span class="icon"><img src="./img/tienda/search.svg" alt=""></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
         
     </section>       
 
-    <div class="container text-center">
-        <div class="row">
+
+    <section class="productos">
+
+      <div class="container">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
           <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col">  
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="producto-foto">
+                <img src="./img/tienda/foto-producto.png" class="card-img-top" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Correa alternador</h5>
+                <p class="card-text">Mitsubishi</p>
+                <div class="compra">
+                  <span class="precio">$15.000</span>
+                  <button class="carro"><a href="">Agregar al carro</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+                   
+
+
         </div>
-      </div>
-    
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
-            </div>
-          </div>
-        </div>
+
       </div>
 
-    
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
-           <div class="producto">
-        <img src="" alt="">
-        <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <p class="precio">$ 00.000</p>
-        <button>Agregar al carro</button>
-    </div>
-          </div>
-          <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
-            </div>
-          </div>
-          <div class="col">
-            <div class="producto">
-                <img src="" alt="">
-                <p>Jorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p class="precio">$ 00.000</p>
-                <button>Agregar al carro</button>
-            </div>
-          </div>
-        </div>
-      </div>  
     </section>
+    
 
     <section class="agendar-hora">
                         
@@ -184,8 +325,9 @@
         </div>
       </div>
       
-
     </section>
+
+
 
     <footer>
       <div class="container">

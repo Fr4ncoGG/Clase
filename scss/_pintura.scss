@@ -1,25 +1,24 @@
 @import "variables";
 
-// página nosotros
-.banner-servicios-mecanica {
-        background-image: url(../img/mecanica-general/imagen-banner.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        padding: 250px 0;
+
+.banner-servicios-pintura {
+    background-image: url(../img/pintura/pintura-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px 0;
 
 
-    .container {
-        p {
-            font-size: 24px;
-            font-weight: $fontWeightRegular;
-            line-height: 36px;
-            text-align: left;
-            color: $blanco;
-        }
+.container {
+    p {
+        font-size: 24px;
+        font-weight: $fontWeightRegular;
+        line-height: 36px;
+        text-align: left;
+        color: $blanco;
     }
 }
-
+}
 
 .servicios {
     .container {
@@ -27,7 +26,7 @@
         flex-direction: row;
         justify-content: space-between;
         column-gap: 100px;
-        .textos {
+        .texto {
             padding: 45px 80px;
             p {
                 text-align: justify;
@@ -44,6 +43,3 @@
         }
     }
 }
-
-
-

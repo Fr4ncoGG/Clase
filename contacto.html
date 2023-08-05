@@ -35,9 +35,9 @@
                             </a>
                             <ul class="dropdown-menu">
                               <li><a class="dropdown-item" href="./servicios-mecanicageneral.html">Mecánica General</a></li>
-                              <li><a class="dropdown-item" href="servicios-pinturaydesabolladura.html">Pintura y desabolladura</a></li>
+                              <li><a class="dropdown-item" href="./servicios-pinturaydesabolladura.html">Pintura y desabolladura</a></li>
                               <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="servicios-revisontecnica.html">Revisión Técnica y Scanner</a></li>
+                              <li><a class="dropdown-item" href="./servicios-revisiontecnica.html">Revisión Técnica y Scanner</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -64,39 +64,60 @@
 
     </header>
 
+    <section class="contacto">
+
+      <div class="container">
+
+        <div class="texto-contacto col">
+          <h4>Contáctanos</h4>
+          <p>Si necesitas una cotización, consultar por un producto o si simplemente tienes una duda, completa el formulario de contácto o llámanos al +569 0000 0000 y te responderemos a la brevedad.</p>
+        </div>
+
+        <div class="formulario col">
+          <form action="/my-handling-form-page" method="post">
+            <div class="casilla">
+              <label for="name">Nombre</label>
+              <input type="text" id="name" name="user_name">
+            </div>
+            <div class="casilla">
+              <label for="mail">Correo electrónico</label>
+              <input type="email" id="mail" name="user_email">
+            </div>
+            <div class="casilla">
+              <label for="name">Teléfono</label>
+              <input type="text" id="telefono" name="user_name">
+            </div>
+            <div class="casilla">
+              <label for="name">Asunto</label>
+              <input type="text" id="asunto" name="user_name">
+            </div>
+            <div class="casilla" id="mensaje">
+              <label for="msg">Mensaje</label>
+              <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+              <button type="submit">Enviar</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+      
+    </section>
     
     <section class="agendar-contacto">
-        <iframe src="https://calendar.google.com/calendar/embed?src=cd5a96269bde984baf326e8d857f7f547dd27fe4f9c5b9a4a9f69836c9d04737%40group.calendar.google.com&ctz=America%2FSantiago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        <span>Agenda tu hora</span>
+
+      <div class="container">
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FSantiago&showTitle=1&title=Venturelli%20Automotriz&src=NmQ0ZTYyYjlhOTk0Y2UwZDgzODQ4OGM1ZmFiN2MwOTYxMzIwNDM5NWViMmE5ZTdmM2JhZGJiZmQxNTc3NmJjNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" style="border:solid 1px #FFFFFF" width="600" height="450" frameborder="0" scrolling="no"></iframe>
+        <div class="textos">
+          <span>Agenda una hora</span>
+          <p>Para agendar una hora debes ingresar tus datos de contacto y el motivo de la visita. Te contactaremos para confirmar la cita.</p>
+        </div>
+      </div>
+
     </section>
 
-    <section class="contacto">
-        <div class="texto-contacto">
-            <h4>Contáctanos</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>+569 0000 0000</p>
-        </div>
-
-        <div class="formulario">
-            <form action="/my-handling-form-page" method="post">
-                <div>
-                  <label for="name">Nombre:</label>
-                  <input type="text" id="name" name="user_name">
-                </div>
-                <div>
-                  <label for="mail">Correo electrónico:</label>
-                  <input type="email" id="mail" name="user_email">
-                </div>
-                <div>
-                  <label for="msg">Mensaje:</label>
-                  <textarea id="msg" name="user_message"></textarea>
-                </div>
-                <div class="button">
-                  <button type="submit">Envia tu mensaje</button>
-                </div>
-              </form>
-        </div>
-    </section>
+    
 
     <section class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.5273423668114!2d-70.62177862442248!3d-33.461618773385084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf8ada447781%3A0xeab7a99fd16c2b0d!2sAv.%20Grecia%201185%2C%207780049%20%C3%91u%C3%B1oa%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1686625971344!5m2!1ses!2scl" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

@@ -1,0 +1,104 @@
+@import "variables";
+
+
+.contacto {
+    background: rgb(0,0,0);
+    background: linear-gradient(126deg, rgba(0,0,0,1) 22%, rgba(228,14,32,1) 93%);
+    padding: 150px;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 120px;
+        width: 100%;
+
+        .texto-contacto {
+            width: 42%;
+            h4 {
+                color: $blanco;
+                font-size: $fontSizeH1;
+                font-weight: $fontWeightExtraBold;
+            }
+            p {
+                color: $blanco;
+                font-weight: $fontWeightRegular;
+                font-size: 18px;
+
+            }
+        }
+
+        .formulario {
+            .casilla {
+                margin-bottom: 15px;
+                border: 2px solid $blanco;
+                padding: 5px 20px;
+                display: flex;
+                justify-content: space-between;
+                column-gap: 20px;
+                border-radius: 5px;
+
+                label {
+                    font-size: 16px;
+                    font-weight: $fontWeightRegular;
+                    color: $blanco;
+                    
+                }
+                input {
+                    background: none;
+                    border: none;
+                    width: 80%;
+                    color: $blanco;
+                    
+                }
+                #mail {
+                    width: 60%;
+                }
+            }
+            #mensaje {
+                display: flex;
+                flex-direction: column;
+                textarea {
+                    background: none;
+                    border: none;
+                    color: $blanco;
+                    
+                }
+            }
+            button {
+                border: none;
+                color: $blanco;
+                background-color: $negro;
+                padding: 15px 20px;
+                border-radius: 5px;
+                font-size: 20px;
+                font-weight: $fontWeightBold;
+            }
+        }
+    }
+}
+
+.agendar-contacto {
+    padding: 100px 0;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .textos {
+            width: 40%;
+            
+
+            span {
+                font-size: 55px;
+                font-weight: $fontWeightBold;
+            }
+            p {
+                font-size: 18px;
+                font-weight: $fontWeightRegular;
+
+            }
+        }
+    }
+}

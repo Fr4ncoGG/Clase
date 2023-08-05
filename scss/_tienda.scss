@@ -1,0 +1,104 @@
+@import "variables";
+
+.banner-tienda {
+        background: url(../img/tienda/bander-tienda.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 100px 0;
+
+}
+
+
+.buscadores {
+    padding: 80px 0;
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+        padding: 30px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.1);
+
+        label {
+            font-size: 14px;
+            font-weight: $fontWeightRegular;
+            color: $gris;
+        }
+        select {
+            border: none;
+            border-bottom: 1px solid;
+            border-radius: 0;
+        }
+        
+        .buscador {
+            .box {
+                border-bottom: 1px solid;
+                .container-1 {
+                    input {
+                        border: none;
+                    }
+                }
+                
+            }
+            
+        }
+    
+    }
+}
+
+
+.productos {
+        padding-bottom: 170px;
+    .container {
+        .row {
+            .col {
+                .card {
+                    border: none;
+                    .producto-foto {
+                        border: none;
+                        border-radius: 10px;
+                        box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.1);
+                    }
+                    .card-title {
+                        font-size: 16px;
+                        font-weight: $fontWeightBold;
+                        color: $negro;
+                    }
+                    .card-text {
+                        font-size: 14px;
+                        font-weight: $fontWeightRegular;
+                        color: $negro;
+
+                    }
+                    .compra {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                            .precio {
+                                font-size: 24px;
+                                font-weight: $fontWeightBold;
+                            }
+                            .carro {
+                                border: none;
+                                padding: 0 15px;
+                                background-color: $rojo;
+                                border-radius: 5px;
+                                 
+                                a {
+                                    text-decoration: none;
+                                    font-size: 14;
+                                    font-weight: $fontWeightBold;
+                                    color: $blanco;
+
+                                }
+                            }
+                    }
+
+                }
+            }
+        }
+    }
+}

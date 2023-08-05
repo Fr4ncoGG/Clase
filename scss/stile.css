@@ -60,7 +60,7 @@ body .banner .container {
   position: absolute;
   top: 270px;
   left: 200px;
-  width: 35%;
+  width: 45%;
 }
 body .banner .container h1 {
   font-weight: 900;
@@ -96,6 +96,7 @@ body .servicios .card {
   -webkit-box-shadow: 6px 10px 20px -6px rgba(0, 0, 0, 0.74);
   -moz-box-shadow: 6px 10px 20px -6px rgba(0, 0, 0, 0.74);
   height: 43rem;
+  margin-bottom: 35px;
 }
 body .servicios .card h5 {
   font-size: 20px;
@@ -368,14 +369,14 @@ body footer .container span {
   text-align: center;
 }
 
-.banner-servicios {
+.banner-servicios-mecanica {
   background-image: url(../img/mecanica-general/imagen-banner.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 250px 0;
 }
-.banner-servicios .container p {
+.banner-servicios-mecanica .container p {
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
@@ -395,7 +396,7 @@ body footer .container span {
 }
 .servicios .container .textos p {
   text-align: justify;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   line-height: 27px;
 }
@@ -403,4 +404,356 @@ body footer .container span {
   font-size: 18px;
   font-weight: 700;
   text-align: justify;
+}
+
+.banner-servicios-pintura {
+  background-image: url(../img/pintura/pintura-02.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+}
+.banner-servicios-pintura .container p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.servicios .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+.servicios .container .texto {
+  padding: 45px 80px;
+}
+.servicios .container .texto p {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.servicios .container .texto p.negrita {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.banner-nosotros {
+  background-image: url(../img/nosotros/banner-nosotros.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+}
+.banner-nosotros .container p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+  width: 500px;
+}
+
+.empresa {
+  padding: 100px 0px;
+}
+.empresa .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 70px;
+       column-gap: 70px;
+  align-items: center;
+}
+.empresa .container p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  text-align: justify;
+  margin: 0;
+}
+
+.valores-empresa {
+  padding-bottom: 120px;
+}
+.valores-empresa .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.valores-empresa .container .card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 7px 7px 16px 7px rgba(0, 0, 0, 0.16);
+  width: 380px;
+  height: auto;
+}
+.valores-empresa .container .card .imagen {
+  height: 150px;
+  margin: 0 auto;
+  width: auto;
+  padding: 20px;
+  display: flex;
+  align-items: end;
+}
+.valores-empresa .container .card .imagen img {
+  height: 80px;
+}
+.valores-empresa .container .card .imagen #vision {
+  height: 60px;
+}
+.valores-empresa .container .card .textos {
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.equipo {
+  background-color: darkgray;
+  padding: 100px 0;
+}
+.equipo .container h5 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-align: center;
+}
+.equipo .container p {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.equipo .container .tarjetas-equipo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+.equipo .container .tarjetas-equipo .persona {
+  background: none;
+  border: none;
+  padding: 25px;
+}
+.equipo .container .tarjetas-equipo .persona img {
+  padding: 30px;
+}
+.equipo .container .tarjetas-equipo .persona .nombre {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.equipo .container .tarjetas-equipo .persona .cargo {
+  font-size: 16px;
+}
+
+.banner-servicios-revision {
+  background-image: url(../img/reviciontecnica/tecnica-portada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+}
+.banner-servicios-revision .container p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.servicios .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+.servicios .container .textos {
+  padding: 45px 80px;
+}
+.servicios .container .textos p {
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+.servicios .container .textos p.negrita {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.banner-tienda {
+  background: url(../img/tienda/bander-tienda.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.buscadores {
+  padding: 80px 0;
+}
+.buscadores .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+  padding: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.1);
+}
+.buscadores .container label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+}
+.buscadores .container select {
+  border: none;
+  border-bottom: 1px solid;
+  border-radius: 0;
+}
+.buscadores .container .buscador .box {
+  border-bottom: 1px solid;
+}
+.buscadores .container .buscador .box .container-1 input {
+  border: none;
+}
+
+.productos {
+  padding-bottom: 170px;
+}
+.productos .container .row .col .card {
+  border: none;
+}
+.productos .container .row .col .card .producto-foto {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.1);
+}
+.productos .container .row .col .card .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+.productos .container .row .col .card .card-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+.productos .container .row .col .card .compra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.productos .container .row .col .card .compra .precio {
+  font-size: 24px;
+  font-weight: 700;
+}
+.productos .container .row .col .card .compra .carro {
+  border: none;
+  padding: 0 15px;
+  background-color: #E40E20;
+  border-radius: 5px;
+}
+.productos .container .row .col .card .compra .carro a {
+  text-decoration: none;
+  font-size: 14;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+
+.contacto {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(126deg, rgb(0, 0, 0) 22%, rgb(228, 14, 32) 93%);
+  padding: 150px;
+}
+.contacto .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 120px;
+       column-gap: 120px;
+  width: 100%;
+}
+.contacto .container .texto-contacto {
+  width: 42%;
+}
+.contacto .container .texto-contacto h4 {
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 900;
+}
+.contacto .container .texto-contacto p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18px;
+}
+.contacto .container .formulario .casilla {
+  margin-bottom: 15px;
+  border: 2px solid #FFFFFF;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  border-radius: 5px;
+}
+.contacto .container .formulario .casilla label {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.contacto .container .formulario .casilla input {
+  background: none;
+  border: none;
+  width: 80%;
+  color: #FFFFFF;
+}
+.contacto .container .formulario .casilla #mail {
+  width: 60%;
+}
+.contacto .container .formulario #mensaje {
+  display: flex;
+  flex-direction: column;
+}
+.contacto .container .formulario #mensaje textarea {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+}
+.contacto .container .formulario button {
+  border: none;
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.agendar-contacto {
+  padding: 100px 0;
+}
+.agendar-contacto .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.agendar-contacto .container .textos {
+  width: 40%;
+}
+.agendar-contacto .container .textos span {
+  font-size: 55px;
+  font-weight: 700;
+}
+.agendar-contacto .container .textos p {
+  font-size: 18px;
+  font-weight: 400;
 }/*# sourceMappingURL=stile.css.map */
